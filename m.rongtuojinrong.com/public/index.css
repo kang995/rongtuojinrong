@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* @font-face是CSS3中的一个模块，他主要是把自己定义的Web字体嵌入到你的网页中，随着@font-face模块的出现，
+我们在Web的开发中使用字体不怕只能使用Web安全字体（@font-face这个功能早在IE4就支持） */
+@font-face {
+    font-family: myFirstFont1;
+    src: url('./Roboto-Bold.eot'),
+    url('./Roboto-Bold.ttf'),
+    url('./Roboto-Bold.woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: myFirstFont2;
+    src: url('./Roboto-Regular.eot'),
+    url('./Roboto-Regular.ttf'),
+    url('./Roboto-Regular.woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  /* 今日任务/今日任務排行榜 /新手專享*/
+  .bold {
+    font-family: myFirstFont1;
+  }
+  
+  /* 项目信息-可投金额-利率  开始*/
+  .projectInformation-header-supply-a-money-text{
+    font-family: myFirstFont1;
+    
+  }
+  .projectInformation-header-supply-a-rate-a-aa{
+    font-family: myFirstFont1;
+    
+  }
+  /* 项目 确认出借  */
+  .jine{
+    font-family: myFirstFont1;
+  }
+  .inputa::-webkit-input-placeholder{
+    font-family: myFirstFont1;
+  }
+  .inputa:-moz-placeholder{
+    font-family: myFirstFont1;
+  }
+  .inputa:-ms-input-placeholder{
+    font-family: myFirstFont1;
+  }
+  /* 项目列表 */
+  .Project-list-one-text3{
+    font-family: myFirstFont1;
+  }
+  .van-circle__text{
+    font-family: myFirstFont1;
+  }
+  .Project-list-two-text2-wan{
+    font-family: myFirstFont1;
+  }
+  .Project-list6-data-img1-sum-span11{
+    font-family: myFirstFont1;
+  }
+  /* 项目结束 */
